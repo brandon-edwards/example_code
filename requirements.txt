@@ -1,0 +1,8 @@
+diffusers==0.14.0
+matplotlib==3.7.1
+numpy==1.24.2
+torch==1.13.1
+torchvision==0.14.1
+tqdm==4.65.0
+ACSConv==0.1.1
+black

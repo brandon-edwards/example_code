@@ -1,0 +1,28 @@
+{
+  "device": "cuda:0",
+  "model": {
+    "num_timesteps": 1000,
+    "ema": true,
+    "ema_rate": 0.999,
+    "ngf": 128,
+	"log_dir": "models"
+  },
+  "optimizer": {
+    "lr": 0.0001,
+    "beta1": 0.9,
+    "eps": 0.001
+  },
+  "data": {
+	"image_size": [32, 32],
+	"channels": 3
+  },
+  "training": {
+    "n_epochs": 200,
+    "val_steps": 100,
+    "save_epochs": 10
+  },
+  "sampling": {
+    "batch_size": 8,
+    "seed": 2023
+  }
+}
